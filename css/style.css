@@ -162,8 +162,6 @@ ul {
   fill: #C283F3;
 }
 
-/* example 111 */
-
 .search-button__icon {
   width: 30px;
   height: 30px;
@@ -173,6 +171,8 @@ ul {
   -webkit-transition: fill 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
   transition: fill 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
+
+/* */
 
 .search {
   display: -webkit-box;
