@@ -82,19 +82,19 @@ new Swiper($('.gallery-slider')[0], {
     $('.gallery-slider__item').on('click', function () {
       const thisDataGallery = $(this)[0].dataset.gallery;
       if (thisDataGallery !== undefined) {
-        $(`[data-gallery="${thisDataGallery + '-content'}"]`).addClass('more_is-active');
+        $(`[data-gallery="${thisDataGallery + '-content'}"]`).addClass('compilation_is-active');
         $('body').addClass('dark');
       }
     })
   
     // Закрывает карточку с описанием
     function closeWindow() {
-      $('.more').removeClass('more_is-active');
+      $('.compilation').removeClass('compilation_is-active');
       $('.dark').removeClass('dark');
     }
   
     // Закрываем окно по клику на крестик
-    $('.more__back').on('click', function () {
+    $('.compilation__back').on('click', function () {
       closeWindow();
     })
   
