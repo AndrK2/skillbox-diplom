@@ -5,20 +5,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Blanchard - дипломная работа</title>
-  <link rel="shortcut icon" href="img/Blanchard__mini.png" type="image/png">
-  <link rel="stylesheet" href="css/swiper-bundle.min.css">                    
+  <link rel="shortcut icon" href="img/Blanchard__mini.png" type="image/png">  
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">                
   <link rel="stylesheet" href="css/simplebar.css"> 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/fonts.css">
-</head>      
+  <link rel="stylesheet" href="css/fonts.css">  
+</head> 
 
 <body>
 <!--/////////////////////////////////////////////////////////////////////////////////////////////////////-->
-<!--////////////////////////////////////     Меню   //////////////////////////////////////////////////-->
+<!--////////////////////////////////////     Меню   /////////////////////////////////////////////////////-->
 <!--/////////////////////////////////////////////////////////////////////////////////////////////////////-->
   <header class="upper">
-    <div class="upper__top burger">
+    <div class="upper__top">
       <div class="container">       
         <div class="upper__container">       
         <button aria-label="Открыть скрытое меню" class="burger__button upper__burger">
@@ -52,6 +52,7 @@
                 <a href="#contacts" class="nav__links">Контакты</a> 
               </li>
             </ul>
+            <div class="enter"> 
             <a href="#" class="nav__sign-up menu__sign-up">
               <svg class="icon__sign-up" xmlns="http://www.w3.org/2000/svg">
                 <path
@@ -59,6 +60,7 @@
               </svg>
               Войти
             </a>
+          </div>
           </div>
         </div>
         <button class="upper__search-button search-button">
@@ -80,7 +82,6 @@
                     d="M12.0969 18C7.53041 18 3.99692 14.3229 3.99692 10C3.99692 5.67715 7.53041 2 12.0969 2C16.6634 2 20.1969 5.67715 20.1969 10C20.1969 14.3229 16.6634 18 12.0969 18ZM12.0969 20C6.57408 20 2.09692 15.5228 2.09692 10C2.09692 4.47715 6.57408 0 12.0969 0C17.6198 0 22.0969 4.47715 22.0969 10C22.0969 15.5228 17.6198 20 12.0969 20Z" />
                 </svg>
               </button> 
-              <label for="search__input" class="search__only">Поле ввода для поиска по сайту</label>
               <input type="text" id="search__input" placeholder="Поиск по сайту" class="search__input"
                 autocomplete="off">
             </form>
@@ -99,13 +100,13 @@
   </div>
 
 
-<!--/////////////////////////////////////////////////////////////////////////////////////////////////////-->
-<!--////////////////////////////////////     Нижнее меню   //////////////////////////////////////////////////-->
-<!--/////////////////////////////////////////////////////////////////////////////////////////////////////-->
 
-<div class="container upper__bottom">
-  <div class="another__container">       
-    <ul class="nav-catalog upper__nav-catalog">
+<!--/////////////////////////////////////////////////////////////////////////////////////////////////////-->
+<!--////////////////////////////////////     Нижнее меню   //////////////////////////////////////////////-->
+<!--/////////////////////////////////////////////////////////////////////////////////////////////////////-->
+<div class="upper__bottom">
+  <div class="container another__container"> 
+    <ul class="nav-catalog">
       <li class="nav-catalog__items">
         <button class="nav-catalog__name">Реализм</button>
         <div class="nav-catalog__another another">
@@ -260,22 +261,20 @@
             </li>
           </ul>
         </div>
-      </li>
+      </li>      
     </ul>
-</div>
+  </div>
 </div>
 </header>
-
   <main>
 
 <!--/////////////////////////////////////////////////////////////////////////////////////////////////////-->
-<!--////////////////////////////////////     Blanchard. Художественная галерея     //////////////////////////////////////////////////-->
+<!--////////////////////////////////////     Blanchard. Художественная галерея     //////////////////////-->
 <!--/////////////////////////////////////////////////////////////////////////////////////////////////////-->
 
     <section id="offer" class="offer">
       <div class="container">
         <div class="offer__content">       
-          <h1 class="offer__only">Blanchard. Художественная галерея</h1>
           <h2 class="offer__title">Прикоснитесь к&nbsp;прекрасному</h2>
           <p class="offer__text">
             Мы вынуждены отталкиваться от того,
@@ -297,8 +296,8 @@
 <!--////////////////////////////////////     О нас    //////////////////////////////////////////////////-->
 <!--/////////////////////////////////////////////////////////////////////////////////////////////////////-->
     <section id="about-us" class="about-us">
+      <div class="about-container">
       <div class="container">
-        <div class="about-container">
         <h2 class="about-us__title">О нас</h2>
         <p class="about-us__text">
           Ясность нашей позиции очевидна: семантический разбор внешних противодействий
@@ -314,14 +313,14 @@
         </p>
       </div>
       </div>
-    </section>
+    </section>  
 
 <!--/////////////////////////////////////////////////////////////////////////////////////////////////////-->
 <!--////////////////////////////////////     Галерея      //////////////////////////////////////////////////-->
 <!--/////////////////////////////////////////////////////////////////////////////////////////////////////-->
 <section id="gallery" class="gallery">
-  <div class="container gallery_flex">
-     
+  <div class="container">
+    <div class="gallery_flex">
       <div class="gallery__left-side">
         <h2 class="gallery__title">Галерея</h2>
         <div class="filter">
@@ -439,7 +438,7 @@
             </div>
           </div>
       </div>
-    </div>
+    </div>  
   </div>
 </section>
 
@@ -999,9 +998,7 @@
           </li>
         </ul>
       </div>
-    </div>
-
-    
+    </div>    
     <div class="catalog__main catalog__main_is-active" data-path="italy-content">
       <figure class="catalog__content card card_is-active" data-author="girlandayo-content">
         <img src="./img/girlandayo.jpg" alt="Доменик Гирлантайо" class="card__image">
@@ -1400,7 +1397,6 @@
         </ul>
       </div>
     </div>
-
     <div class="catalog__main" data-path="russia-content">
       <figure class="catalog__content card card_is-active" data-author="levitan-content">
         <img src="./img/levitan.jpg" alt="Исаак Левитан" class="card__image">
@@ -1582,8 +1578,7 @@
           </li>
         </ul>
       </div>
-    </div>
-    
+    </div>    
     <div class="catalog__main" data-path="belgium-content">
       <figure class="catalog__content card card_is-active" data-author="breigel-content">
         <img src="./img/breigel.jpg" alt="Питер Брейгель Старший" class="card__image">
