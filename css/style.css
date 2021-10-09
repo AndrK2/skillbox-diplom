@@ -727,7 +727,7 @@ ul {
 
 .about-us {
   padding-top: 45px;
-  padding-bottom: 50px;
+  padding-bottom: 55px;
 }
 
 .about-us__title {
@@ -763,7 +763,7 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding-top: 82px;
+  padding-top: 85px;
   padding-bottom: 77px;
 }
 
@@ -934,18 +934,18 @@ ul {
 }
 
 .gallery-slider__image {
-  -o-object-fit: cover;
-     object-fit: cover;
+  /*-o-object-fit: cover;
+     object-fit: cover;*/
 }
 
 .gallery-slider__list {
   height: 800px;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  /*display: -webkit-box;
+  display: -ms-flexbox;*/
   display: flex;
-  -webkit-box-orient: vertical;
+  /*-webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
+      -ms-flex-direction: column;*/
           flex-direction: column;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
