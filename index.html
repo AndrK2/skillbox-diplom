@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Blanchard - дипломная работа</title>
-  <link rel="shortcut icon" href="img/Blanchard__mini.png" type="image/png">  
+  <link rel="shortcut icon" href="img/Blanchard__mini.png" type="image/png"> 
   <link rel="stylesheet" href="css/swiper-bundle.min.css">                
   <link rel="stylesheet" href="css/simplebar.css"> 
   <link rel="stylesheet" href="css/normalize.css">
@@ -17,19 +17,19 @@
 <!--/////////////////////////////////////////////////////////////////////////////////////////////////////-->
 <!--////////////////////////////////////     Меню   /////////////////////////////////////////////////////-->
 <!--/////////////////////////////////////////////////////////////////////////////////////////////////////-->
-  <header class="upperar">
-    <div class="upper__top">
+  <header class="mapping">   
+    <div class="mapping__top">
       <div class="container">       
-        <div class="upper__container">       
-        <button aria-label="Открыть скрытое меню" class="burger__button upper__burger">
-          <span class="burger__icon"></span>
-        </button>
-        <a href="#" class="upper__logo" aria-label="Blanchard. Художественная галерея">
-          <img class="upper__icon" src="img/logo_Blanchard.svg" alt="Blanchard. Художественная галерея">
+        <div class="mapping__container"> 
+         <button class="burger-button mapping__burger" aria-label="Открыть скрытое меню">
+          <span class="burger-icon"></span>
+         </button>
+        <a href="#" class="mapping__logo" aria-label="Blanchard. Художественная галерея">
+          <img class="mapping__icon" src="img/logo_Blanchard.svg" alt="Blanchard. Художественная галерея">
         </a>
         <div class="menu">
           <div class="menu__container">
-            <ul class="nav upper__nav">
+            <ul class="nav mapping__nav">
               <li class="nav__items">
                 <a href="#about-us" class="nav__links">О нас</a>
               </li>
@@ -52,18 +52,16 @@
                 <a href="#contacts" class="nav__links">Контакты</a> 
               </li>
             </ul>
-            <div class="enter"> 
-            <a href="#" class="nav__sign-up menu__sign-up">
-              <svg class="icon__sign-up" xmlns="http://www.w3.org/2000/svg">
+            <a href="#" class="nav-sign-up menu__sign-up">
+              <svg class="icon-sign-up" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M5.12056 9.09278L6.13889 10.1111L9.75 6.5L6.13889 2.88889L5.12056 3.90722L6.98389 5.77778H0V7.22222H6.98389L5.12056 9.09278ZM11.5556 0H1.44444C0.642778 0 0 0.65 0 1.44444V4.33333H1.44444V1.44444H11.5556V11.5556H1.44444V8.66667H0V11.5556C0 12.35 0.642778 13 1.44444 13H11.5556C12.35 13 13 12.35 13 11.5556V1.44444C13 0.65 12.35 0 11.5556 0Z" />
               </svg>
               Войти
             </a>
           </div>
-          </div>
         </div>
-        <button class="upper__search-button search-button">
+        <button class="mapping__search-button search-button">
           <svg xmlns="http://www.w3.org/2000/svg" class="search-button__icon">
             <rect width="6.8678" height="1.71695"
               transform="matrix(-0.718931 0.695081 0.718931 0.695081 4.9375 15.6534)" />
@@ -71,7 +69,7 @@
               d="M12.0969 18C7.53041 18 3.99692 14.3229 3.99692 10C3.99692 5.67715 7.53041 2 12.0969 2C16.6634 2 20.1969 5.67715 20.1969 10C20.1969 14.3229 16.6634 18 12.0969 18ZM12.0969 20C6.57408 20 2.09692 15.5228 2.09692 10C2.09692 4.47715 6.57408 0 12.0969 0C17.6198 0 22.0969 4.47715 22.0969 10C22.0969 15.5228 17.6198 20 12.0969 20Z" />
           </svg>
         </button>
-        <div class="search upper__search">
+        <div class="search mapping__search">
           <div class="search__container">
             <form action="POST" class="search__form" aria-label="Поиск по сайту">
               <button type="submit" class="search__submit" aria-label="Кнопка подтверждения поиска">
@@ -86,7 +84,7 @@
                 autocomplete="off">
             </form>
             <button class="search__back">
-              <svg class="search__icon_back" xmlns="http://www.w3.org/2000/svg">
+              <svg class="search-icon-back" xmlns="http://www.w3.org/2000/svg">
                 <rect width="19.2824" height="1.92824"
                   transform="matrix(0.707093 0.707121 -0.707093 0.707121 1.36523 0.00151253)" />
                 <rect width="19.2824" height="1.92824"
@@ -104,8 +102,8 @@
 <!--/////////////////////////////////////////////////////////////////////////////////////////////////////-->
 <!--////////////////////////////////////     Нижнее меню   //////////////////////////////////////////////-->
 <!--/////////////////////////////////////////////////////////////////////////////////////////////////////-->
-<div class="upper__bottom">
-  <div class="container another__container"> 
+<div class="mapping__bottom">
+  <div class="container another-container"> 
     <ul class="nav-catalog">
       <li class="nav-catalog__items">
         <button class="nav-catalog__name">Реализм</button>
@@ -320,7 +318,7 @@
 <!--/////////////////////////////////////////////////////////////////////////////////////////////////////-->
 <section id="gallery" class="gallery">
   <div class="container">
-    <div class="gallery_flex">
+    <div class="gallery-flex">
       <div class="gallery__left-side">
         <h2 class="gallery__title">Галерея</h2>
         <div class="filter">
@@ -330,14 +328,12 @@
             <option value="">Направление</option>
             <option value="">Техника</option>
           </select>
-        </div>
-        <p class="left-side__info">
-          Вам предоставляется 10 бесплатных скачиваний. Для увеличения количества скачиваний
-          <a href="#" class="left-side__link">
-            авторизуйтесь,
-          </a>
-          либо воспользуйтесь лицензией.
-        </p>
+        </div>    
+        <div class="advantages-l-b">
+          <div class="advantages">
+              Вам представляется 10 бесплатных скачиваний. Для увеличения количества скачиваний <a href="trusted.html" class="trusted">авторизуйтесь,</a> либо воспользуйтесь лицензией.
+          </div>
+      </div>
       </div>  
         <div class="gallery-slider">
           <div class="gallery-slider__controls gallery__controls">
@@ -448,7 +444,6 @@
 <!--/////////////////////////////////////////////////////////////////////////////////////////////////////-->
  <section id="catalog" class="catalog">
   <div class="container">
-    <div class="container-catalog">
     <div class="catalog__header">
       <h2 class="catalog__title">Каталог</h2>
       <ul class="catalog__tabs tabs">
@@ -1702,7 +1697,6 @@
       </div>
     </div>
   </div>
-</div>
 </section>    
 
 <!--/////////////////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1829,10 +1823,11 @@
               </figure>
             </li>
           </ul>
-          <div class="events__pagination"></div>
+          <div class="events__pagination">
           <button class="events__all">Все события</button>
         </div>
       </div>
+    </div>
     </section>
 
 
@@ -1841,8 +1836,8 @@
 <!--/////////////////////////////////////////////////////////////////////////////////////////////////////-->
 
     <section id="publications" class="publications">
-      <div class="container container_flex">
-        <div class="publications__container">
+      <div class="container">
+        <div class="publications-container">
           <div class="publications__left-side">
             <h2 class="publications__title">Издания</h2>
             <div class="publications__accordion" data-mobile="false">
@@ -1945,105 +1940,102 @@
             <ul class="publications__list">
               <li class="publications__item publications__item_is-visible" data-genre="design">
                 <div class="publications__card">
-                  <img src="./img/publications-1.jpg" alt="Искусство цвета" class="publications__image">
-                  <div class="publications__description">
-                    <div class="publications__info">
-                      <h3 class="publications__name">Искусство цвета</h3>
-                      <span class="publications__price">620 руб</span>
+                  <img src="./img/publications-1.jpg" alt="Искусство цвета" class="publications__image">                  
+                  <div class="publications__description">            
+                    <div class="publications-services">
+                      <div class="publications-services-a">Искусство цвета</div>
+                      <div class="publications-services-b">620 руб</div>
                     </div>
-                    <p class="publications__author">Иттен, Иоханнес</p>
-                    <button class="publications__buy">Заказать</button>
+                    <div class="publications-services-v">Иттен, Иоханнес</div>
+                      <button class="publications__buy">Заказать</button>
                   </div>
                 </div>
               </li>
               <li class="publications__item publications__item_is-visible" data-genre="design">
                 <div class="publications__card">
                   <img src="./img/publications-2.jpg" alt="Типографика" class="publications__image">
-                  <div class="publications__description">
-                    <div class="publications__info">
-                      <h3 class="publications__name">Типографика</h3>
-                      <span class="publications__price">2 450 руб</span>
-                    </div>
-                    <p class="publications__author">Рудер, Эмиль</p>
-                    <button class="publications__buy">Заказать</button>
+                  <div class="publications__description">                                    
+                  <div class="publications-services">
+                    <div class="publications-services-a">Типографика</div>
+                    <div class="publications-services-b">2 450 руб</div>
                   </div>
+                  <div class="publications-services-v">Рудер, Эмиль</div>
+                    <button class="publications__buy">Заказать</button>
+                  </div> 
                 </div>
               </li>
               <li class="publications__item publications__item_is-visible" data-genre="design">
                 <div class="publications__card">
                   <img src="./img/publications-3.jpg" alt="Книги про буквы" class="publications__image">
-                  <div class="publications__description">
-                    <div class="publications__info">
-                      <h3 class="publications__name">Книги про буквы</h3>
-                      <span class="publications__price">2 200 руб</span>
-                    </div>
-                    <p class="publications__author">Гордон, Юрий</p>
-                    <button class="publications__buy">Заказать</button>
+                  <div class="publications__description">            
+                  <div class="publications-services">
+                    <div class="publications-services-a">Книги про буквы</div>
+                    <div class="publications-services-b">2 200 руб</div>
                   </div>
+                  <div class="publications-services-v">Гордон, Юрий</div>
+                    <button class="publications__buy">Заказать</button>
                 </div>
+              </div>
               </li>
               <li class="publications__item publications__item_is-visible" data-genre="design">
                 <div class="publications__card">
                   <img src="./img/publications-4.jpg" alt="Николай Ильин" class="publications__image">
-                  <div class="publications__description">
-                    <div class="publications__info">
-                      <h3 class="publications__name">Николай Ильин</h3>
-                      <span class="publications__price">1 100 руб</span>
-                    </div>
-                    <p class="publications__author">Кричевский, Владимир</p>
+                  <div class="publications__description">                                
+                  <div class="publications-services">
+                    <div class="publications-services-a">Николай Ильин</div>
+                    <div class="publications-services-b">1 100 руб</div>
+                  </div>
+                  <div class="publications-services-v">Кричевский, Владимир</div>
                     <button class="publications__buy">Заказать</button>
                   </div>
                 </div>
               </li>
               <li class="publications__item publications__item_is-visible" data-genre="design">
                 <div class="publications__card">
-                  <img src="./img/publications-5.jpg" alt="Модульные системы в графическом дизайне"
-                    class="publications__image">
+                  <img src="./img/publications-5.jpg" alt="Модульные системы в графическом дизайне" class="publications__image">                                    
                   <div class="publications__description">
-                    <div class="publications__info">
-                      <h3 class="publications__name">Модульные системы в графическом дизайне</h3>
-                      <span class="publications__price">1 450 руб</span>
-                    </div>
-                    <p class="publications__author">Мюллер-Брокманн, Йозеф</p>
-                    <button class="publications__buy">Заказать</button>
+                  <div class="publications-services">
+                    <div class="publications-services-a">Модульные системы в графическом дизайне</div>
+                    <div class="publications-services-b">1 450 руб</div>
                   </div>
+                  <div class="publications-services-v">Мюллер-Брокманн, Йозеф</div>
+                    <button class="publications__buy">Заказать</button>
                 </div>
+              </div>
               </li>
               <li class="publications__item publications__item_is-visible" data-genre="design">
                 <div class="publications__card">
-                  <img src="./img/publications-6.jpg" alt="Эволюция графических стилей" class="publications__image">
+                  <img src="./img/publications-6.jpg" alt="Эволюция графических стилей" class="publications__image">                                   
                   <div class="publications__description">
-                    <div class="publications__info">
-                      <h3 class="publications__name">Эволюция графических стилей</h3>
-                      <span class="publications__price">3 200 руб</span>
-                    </div>
-                    <p class="publications__author">Хеллер, Чваст</p>
-                    <button class="publications__buy">Заказать</button>
+                  <div class="publications-services">
+                    <div class="publications-services-a">Эволюция графических стилей</div>
+                    <div class="publications-services-b">3 200 руб</div>
                   </div>
+                  <div class="publications-services-v">Хеллер, Чваст</div>
+                    <button class="publications__buy">Заказать</button>
                 </div>
+              </div>
               </li>
               <li class="publications__item publications__item_is-visible" data-genre="design">
                 <div class="publications__card">
-                  <img src="./img/publications-7.jpg" alt="Типографика" class="publications__image">
-                  <div class="publications__description">
-                    <div class="publications__info">
-                      <h3 class="publications__name">Искусство и визуальное восприятие</h3>
-                      <span class="publications__price">2 200 руб</span>
-                    </div>
-                    <p class="publications__author">Арнхейм, Рудольф</p>
-                    <button class="publications__buy">Заказать</button>
+                  <img src="./img/publications-7.jpg" alt="Типографика" class="publications__image">                                   
+                  <div class="publications-services">
+                    <div class="publications-services-a">Типографика</div>
+                    <div class="publications-services-b">2 200 руб</div>
                   </div>
+                  <div class="publications-services-v">Арнхейм, Рудольф</div>
+                    <button class="publications__buy">Заказать</button>
                 </div>
               </li>
               <li class="publications__item" data-genre="fashion">
                 <div class="publications__card">
-                  <img src="./img/fashion-1.jpg" alt="Во имя Гуччи" class="publications__image">
-                  <div class="publications__description">
-                    <div class="publications__info">
-                      <h3 class="publications__name">Во имя Гуччи</h3>
-                      <span class="publications__price">500 руб</span>
-                    </div>
-                    <p class="publications__author">Гиччи, Патрисия</p>
+                  <img src="./img/fashion-1.jpg" alt="Во имя Гуччи" class="publications__image"> 
+                  <div class="publications__description">                                  
+                  <div class="publications-services">
+                    <div class="publications-services-a">Во имя Гуччи</div>
+                    <div class="publications-services-b">500 руб</div>
+                  </div>
+                  <div class="publications-services-v">Гиччи, Патрисия</div>
                     <button class="publications__buy">Заказать</button>
                   </div>
                 </div>
@@ -2051,29 +2043,28 @@
               <li class="publications__item" data-genre="fashion">
                 <div class="publications__card">
                   <img src="./img/fashion-2.jpg" alt="Гид по стилю" class="publications__image">
-                  <div class="publications__description">
-                    <div class="publications__info">
-                      <h3 class="publications__name">Гид по стилю</h3>
-                      <span class="publications__price">1 500 руб</span>
-                    </div>
-                    <p class="publications__author">Рогов, Александр</p>
-                    <button class="publications__buy">Заказать</button>
+                  <div class="publications__description">                
+                  <div class="publications-services">
+                    <div class="publications-services-a">Гид по стилю</div>
+                    <div class="publications-services-b">1 500 руб</div>
                   </div>
+                  <div class="publications-services-v">Рогов, Александр</div>
+                    <button class="publications__buy">Заказать</button>
                 </div>
+              </div>
               </li>
               <li class="publications__item" data-genre="fashion">
                 <div class="publications__card">
-                  <img src="./img/fashion-3.jpg"
-                    alt="Триумф черного платья. Создай свой неповторимый стиль" class="publications__image">
+                  <img src="./img/fashion-3.jpg" alt="Создай свой неповторимый стиль" class="publications__image">                                  
                   <div class="publications__description">
-                    <div class="publications__info">
-                      <h3 class="publications__name">Триумф черного платья. Создай свой неповторимый стиль</h3>
-                      <span class="publications__price">2 500 руб</span>
-                    </div>
-                    <p class="publications__author">Найденская, Наталья</p>
-                    <button class="publications__buy">Заказать</button>
+                  <div class="publications-services">
+                    <div class="publications-services-a">Создай свой неповторимый стиль</div>
+                    <div class="publications-services-b">2 500 руб</div>
                   </div>
+                  <div class="publications-services-v">Найденская, Наталья</div>
+                    <button class="publications__buy">Заказать</button>
                 </div>
+              </div>
               </li>
             </ul>
           </div>
@@ -2087,7 +2078,6 @@
 
     <section id="projects" class="projects">
       <div class="container">
-        <div class="container-projects">
         <h2 class="projects__title">Проекты</h2>
         <p class="projects__text">
           Предварительные выводы: постоянное информационно-пропагандистское обеспечение нашей деятельности
@@ -2151,7 +2141,6 @@
           <div class="projects__button projects__button_next"></div>
           <div class="projects__button projects__button_prev"></div>
         </div>
-      </div>
       </div>
     </section>
 
@@ -2289,4 +2278,4 @@
     });
 </script>     
  </body>
-</html
+</html>
