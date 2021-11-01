@@ -29,7 +29,7 @@ function setLoWers() {
     })
   
     // Устанавливаем на все дроплисты кастомные скроллы
-    new SimpleBar($('.another__list')[0])
+    new SimpleBar($('.another-list')[0])
   }
   // ---
   setLoWers()

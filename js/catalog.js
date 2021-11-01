@@ -11,10 +11,10 @@ $(function () {
   // Функционал табов и стилистические изменения в секции
   function setTabsCatalog() {
     // Табы для выбора страны в каталоге
-    $('.tabs__button').on('click', function () {
-      $('.tabs__button').removeClass('tabs__button_is-active');
+    $('.tabs-button').on('click', function () {
+      $('.tabs-button').removeClass('tabs__button_is-active');
       $(this).addClass('tabs__button_is-active');
-      $('.catalog__main').removeClass('catalog__main_is-active');
+      $('.catalog-main').removeClass('catalog__main_is-active');
       $(`[data-path="${$(this)[0].dataset.path}-content"]`).addClass('catalog__main_is-active');
     })
   

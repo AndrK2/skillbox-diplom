@@ -161,7 +161,7 @@ const mySwiperPublications = new Swiper($('.publications__slider-container')[0],
   
   // Зависимости от ширины страницы (аккордеон, свайпер)
   function mobileAccordion() {
-    const categories = document.querySelector('.publications__accordion');
+    const categories = document.querySelector('.publications-accordion');
     if (window.innerWidth <= 650 && categories.dataset.mobile === 'false') {
       $(function () {
         $(categories).accordion({
@@ -233,7 +233,7 @@ const mySwiperPublications = new Swiper($('.publications__slider-container')[0],
   })
   
   function onClickArrowForAccordion() {
-    $('.publications__subtitle').on ('click', function () {
+    $('.publications-subtitle').on ('click', function () {
       if (window.innerWidth <= 650) $(this).toggleClass('publications__subtitle_is-open');
     })
   }

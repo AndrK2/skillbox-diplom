@@ -4,7 +4,7 @@
     $('.search-button').on('click', function () {
       $('.search').fadeIn(200);
     });
-    $('.search__back').on('click', function () {
+    $('.search-back').on('click', function () {
       $('.search').fadeOut(200);
     })
   }

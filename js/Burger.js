@@ -1,7 +1,7 @@
 // Установка кнопки бургера
   function setBurger() {
-    $('.burger__button').on('click', function () {
-      $('.burger__icon').toggleClass('burger__icon_is-open');
+    $('.burger-button').on('click', function () {
+      $('.burger-icon').toggleClass('burger-icon_is-open');
       $('.menu').slideToggle(300);
     })
   }

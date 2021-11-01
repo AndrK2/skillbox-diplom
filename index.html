@@ -4,89 +4,87 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blanchard - дипломная работа</title>
-  <link rel="shortcut icon" href="img/Blanchard__mini.png" type="image/png">  
+  <title>Blanchard | художественная галерея</title>
+  <link rel="shortcut icon" href="img/Blanchard__mini.png" type="image/png"> 
   <link rel="stylesheet" href="css/swiper-bundle.min.css">                
   <link rel="stylesheet" href="css/simplebar.css"> 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/fonts.css">  
-</head> 
-
+</head>
 <body>
+
+
 <!--/////////////////////////////////////////////////////////////////////////////////////////////////////-->
 <!--////////////////////////////////////     Меню   /////////////////////////////////////////////////////-->
 <!--/////////////////////////////////////////////////////////////////////////////////////////////////////-->
-  <header class="upperar">
-    <div class="upper__top">
+  <header class="header">          
+    <div class="header-top">
       <div class="container">       
-        <div class="upper__container">       
-        <button aria-label="Открыть скрытое меню" class="burger__button upper__burger">
-          <span class="burger__icon"></span>
-        </button>
-        <a href="#" class="upper__logo" aria-label="Blanchard. Художественная галерея">
-          <img class="upper__icon" src="img/logo_Blanchard.svg" alt="Blanchard. Художественная галерея">
+        <div class="header-container"> 
+         <button class="burger-button header-burger" aria-label="Открыть скрытое меню">
+          <span class="burger-icon"></span>
+         </button>
+        <a href="#" class="header-logo" aria-label="Blanchard. Художественная галерея">
+          <img class="header-icon" src="img/logo_Blanchard.svg" alt="Blanchard. Художественная галерея">
         </a>
         <div class="menu">
-          <div class="menu__container">
-            <ul class="nav upper__nav">
-              <li class="nav__items">
-                <a href="#about-us" class="nav__links">О нас</a>
+          <div class="menu-container">
+            <ul class="header-nav">
+              <li class="nav-items">
+                <a href="#about-us" class="nav-links">О нас</a>
               </li>
-              <li class="nav__items">
-                <a href="#gallery" class="nav__links">Галерея</a>
+              <li class="nav-items">
+                <a href="#gallery" class="nav-links">Галерея</a>
               </li>
-              <li class="nav__items">
-                <a href="#catalog" class="nav__links">Каталог</a>
+              <li class="nav-items">
+                <a href="#catalog" class="nav-links">Каталог</a>
               </li>
-              <li class="nav__items">
-                <a href="#events" class="nav__links">События</a>
+              <li class="nav-items">
+                <a href="#events" class="nav-links">События</a>
               </li>
-              <li class="nav__items">
-                <a href="#publications" class="nav__links">Издания</a>
+              <li class="nav-items">
+                <a href="#publications" class="nav-links">Издания</a>
               </li>
-              <li class="nav__items">
-                <a href="#projects" class="nav__links">Проекты</a>
+              <li class="nav-items">
+                <a href="#projects" class="nav-links">Проекты</a>
               </li>
-              <li class="nav__items">
-                <a href="#contacts" class="nav__links">Контакты</a> 
+              <li class="nav-items">
+                <a href="#contacts" class="nav-links">Контакты</a> 
               </li>
             </ul>
-            <div class="enter"> 
-            <a href="#" class="nav__sign-up menu__sign-up">
-              <svg class="icon__sign-up" xmlns="http://www.w3.org/2000/svg">
+            <a href="#" class="nav-sign-up menu-sign-up">
+              <svg class="icon-sign-up" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M5.12056 9.09278L6.13889 10.1111L9.75 6.5L6.13889 2.88889L5.12056 3.90722L6.98389 5.77778H0V7.22222H6.98389L5.12056 9.09278ZM11.5556 0H1.44444C0.642778 0 0 0.65 0 1.44444V4.33333H1.44444V1.44444H11.5556V11.5556H1.44444V8.66667H0V11.5556C0 12.35 0.642778 13 1.44444 13H11.5556C12.35 13 13 12.35 13 11.5556V1.44444C13 0.65 12.35 0 11.5556 0Z" />
               </svg>
               Войти
             </a>
           </div>
-          </div>
         </div>
-        <button class="upper__search-button search-button">
-          <svg xmlns="http://www.w3.org/2000/svg" class="search-button__icon">
+        <button class="header-search-button search-button">
+          <svg xmlns="http://www.w3.org/2000/svg" class="search-button-icon">
             <rect width="6.8678" height="1.71695"
               transform="matrix(-0.718931 0.695081 0.718931 0.695081 4.9375 15.6534)" />
             <path fill-rule="evenodd" clip-rule="evenodd"
               d="M12.0969 18C7.53041 18 3.99692 14.3229 3.99692 10C3.99692 5.67715 7.53041 2 12.0969 2C16.6634 2 20.1969 5.67715 20.1969 10C20.1969 14.3229 16.6634 18 12.0969 18ZM12.0969 20C6.57408 20 2.09692 15.5228 2.09692 10C2.09692 4.47715 6.57408 0 12.0969 0C17.6198 0 22.0969 4.47715 22.0969 10C22.0969 15.5228 17.6198 20 12.0969 20Z" />
           </svg>
         </button>
-        <div class="search upper__search">
-          <div class="search__container">
-            <form action="POST" class="search__form" aria-label="Поиск по сайту">
-              <button type="submit" class="search__submit" aria-label="Кнопка подтверждения поиска">
-                <svg xmlns="http://www.w3.org/2000/svg" class="search__icon">
+        <div class="search header-search">
+          <div class="search-container">
+            <form action="POST" class="search-form" aria-label="Поиск по сайту">
+              <button type="submit" class="search-submit" aria-label="Кнопка подтверждения поиска">
+                <svg xmlns="http://www.w3.org/2000/svg" class="search-icon">
                   <rect width="6.8678" height="1.71695"
                     transform="matrix(-0.718931 0.695081 0.718931 0.695081 4.9375 15.6534)" />
                   <path fill-rule="evenodd" clip-rule="evenodd"
                     d="M12.0969 18C7.53041 18 3.99692 14.3229 3.99692 10C3.99692 5.67715 7.53041 2 12.0969 2C16.6634 2 20.1969 5.67715 20.1969 10C20.1969 14.3229 16.6634 18 12.0969 18ZM12.0969 20C6.57408 20 2.09692 15.5228 2.09692 10C2.09692 4.47715 6.57408 0 12.0969 0C17.6198 0 22.0969 4.47715 22.0969 10C22.0969 15.5228 17.6198 20 12.0969 20Z" />
                 </svg>
               </button> 
-              <input type="text" id="search__input" placeholder="Поиск по сайту" class="search__input"
+              <input type="text" id="search-input" placeholder="Поиск по сайту" class="search-input"
                 autocomplete="off">
             </form>
-            <button class="search__back">
-              <svg class="search__icon_back" xmlns="http://www.w3.org/2000/svg">
+            <button class="search-back">
+              <svg class="search-icon-back" xmlns="http://www.w3.org/2000/svg">
                 <rect width="19.2824" height="1.92824"
                   transform="matrix(0.707093 0.707121 -0.707093 0.707121 1.36523 0.00151253)" />
                 <rect width="19.2824" height="1.92824"
@@ -104,35 +102,35 @@
 <!--/////////////////////////////////////////////////////////////////////////////////////////////////////-->
 <!--////////////////////////////////////     Нижнее меню   //////////////////////////////////////////////-->
 <!--/////////////////////////////////////////////////////////////////////////////////////////////////////-->
-<div class="upper__bottom">
-  <div class="container another__container"> 
+<div class="header-bottom">  
+  <div class="container another-container"> 
     <ul class="nav-catalog">
       <li class="nav-catalog__items">
         <button class="nav-catalog__name">Реализм</button>
         <div class="nav-catalog__another another">
-          <ul class="another__list">
-            <li class="another__item">
+          <ul class="another-list">
+            <li class="another-item">
               <a href="#" class="another__link another__link_tintoretto">Тинторетто</a>
             </li>
-            <li class="another__item">
+            <li class="another-item">
               <a href="#" class="another__link another__link_fridrih">Фридрих</a>
             </li>
-            <li class="another__item">
+            <li class="another-item">
               <a href="#" class="another__link another__link_leonardo">Леонардо</a>
             </li>
-            <li class="another__item">
+            <li class="another-item">
               <a href="#" class="another__link another__link_veroccyo">Верроккьо</a>
             </li>
-            <li class="another__item">
+            <li class="another-item">
               <a href="#" class="another__link another__link_tintoretto">Тинторетто</a>
             </li>
-            <li class="another__item">
+            <li class="another-item">
               <a href="#" class="another__link another__link_fridrih">Фридрих</a>
             </li>
-            <li class="another__item">
+            <li class="another-item">
               <a href="#" class="another__link another__link_leonardo">Леонардо</a>
             </li>
-            <li class="another__item">
+            <li class="another-item">
               <a href="#" class="another__link another__link_veroccyo">Верроккьо</a>
             </li>
           </ul>
@@ -141,29 +139,29 @@
       <li class="nav-catalog__items">
         <button class="nav-catalog__name">Импрессионизм</button>
         <div class="nav-catalog__another another">
-          <ul data-simplebar class="another__list">
-            <li class="another__item">
+          <ul data-simplebar class="another-list">
+            <li class="another-item">
               <a href="#" class="another__link another__link_mone">Моне</a>
             </li>
-            <li class="another__item">
+            <li class="another-item">
               <a href="#" class="another__link another__link_sisley">Сислей</a>
             </li>
-            <li class="another__item">
+            <li class="another-item">
               <a href="#" class="another__link another__link_mane">Мане</a>
             </li>
-            <li class="another__item">
+            <li class="another-item">
               <a href="#" class="another__link another__link_renuar">Ренуар</a>
             </li>
-            <li class="another__item">
+            <li class="another-item">
               <a href="#" class="another__link another__link_mone">Моне</a>
             </li>
-            <li class="another__item">
+            <li class="another-item">
               <a href="#" class="another__link another__link_sisley">Сислей</a>
             </li>
-            <li class="another__item">
+            <li class="another-item">
               <a href="#" class="another__link another__link_mane">Мане</a>
             </li>
-            <li class="another__item">
+            <li class="another-item">
               <a href="#" class="another__link another__link_renuar">Ренуар</a>
             </li>
           </ul>
@@ -172,29 +170,29 @@
       <li class="nav-catalog__items">
         <button class="nav-catalog__name">Постимпрессионизм</button>
         <div class="nav-catalog__another another">
-          <ul data-simplebar class="another__list">
-            <li class="another__item">
+          <ul data-simplebar class="another-list">
+            <li class="another-item">
               <a href="#" class="another__link another__link_van-gog">Ван Гог</a>
             </li>
-            <li class="another__item">
+            <li class="another-item">
               <a href="#" class="another__link another__link_sezann">Сезанн</a>
             </li>
-            <li class="another__item">
+            <li class="another-item">
               <a href="#" class="another__link another__link_gogen">Гоген</a>
             </li>
-            <li class="another__item">
+            <li class="another-item">
               <a href="#" class="another__link another__link_syora">Сёра</a>
             </li>
-            <li class="another__item">
+            <li class="another-item">
               <a href="#" class="another__link another__link_van-gog">Ван Гог</a>
             </li>
-            <li class="another__item">
+            <li class="another-item">
               <a href="#" class="another__link another__link_sezann">Сезанн</a>
             </li>
-            <li class="another__item">
+            <li class="another-item">
               <a href="#" class="another__link another__link_gogen">Гоген</a>
             </li>
-            <li class="another__item">
+            <li class="another-item">
               <a href="#" class="another__link another__link_syora">Сёра</a>
             </li>
           </ul>
@@ -203,29 +201,29 @@
       <li class="nav-catalog__items">
         <button class="nav-catalog__name">Авангард</button>
         <div class="nav-catalog__another another">
-          <ul data-simplebar class="another__list">
-            <li class="another__item">
+          <ul data-simplebar class="another-list">
+            <li class="another-item">
               <a href="#" class="another__link another__link_kandinsky">Кандинский</a>
             </li>
-            <li class="another__item">
+            <li class="another-item">
               <a href="#" class="another__link another__link_marinetti">Маринетти</a>
             </li>
-            <li class="another__item">
+            <li class="another-item">
               <a href="#" class="another__link another__link_malevich">Малевич</a>
             </li>
-            <li class="another__item">
+            <li class="another-item">
               <a href="#" class="another__link another__link_pikasso">Пикассо</a>
             </li>
-            <li class="another__item">
+            <li class="another-item">
               <a href="#" class="another__link another__link_kandinsky">Кандинский</a>
             </li>
-            <li class="another__item">
+            <li class="another-item">
               <a href="#" class="another__link another__link_marinetti">Маринетти</a>
             </li>
-            <li class="another__item">
+            <li class="another-item">
               <a href="#" class="another__link another__link_malevich">Малевич</a>
             </li>
-            <li class="another__item">
+            <li class="another-item">
               <a href="#" class="another__link another__link_pikasso">Пикассо</a>
             </li>
           </ul>
@@ -234,29 +232,29 @@
       <li class="nav-catalog__items">
         <button class="nav-catalog__name">Футуризм</button>
         <div class="nav-catalog__another another">
-          <ul data-simplebar class="another__list">
-            <li class="another__item">
+          <ul data-simplebar class="another-list">
+            <li class="another-item">
               <a href="#" class="another__link another__link_karra">Карра</a>
             </li>
-            <li class="another__item">
+            <li class="another-item">
               <a href="#" class="another__link another__link_pratella">Прателла</a>
             </li>
-            <li class="another__item">
+            <li class="another-item">
               <a href="#" class="another__link another__link_severini">Северини</a>
             </li>
-            <li class="another__item">
+            <li class="another-item">
               <a href="#" class="another__link another__link_balla">Балла</a>
             </li>
-            <li class="another__item">
+            <li class="another-item">
               <a href="#" class="another__link another__link_karra">Карра</a>
             </li>
-            <li class="another__item">
+            <li class="another-item">
               <a href="#" class="another__link another__link_pratella">Прателла</a>
             </li>
-            <li class="another__item">
+            <li class="another-item">
               <a href="#" class="another__link another__link_severini">Северини</a>
             </li>
-            <li class="another__item">
+            <li class="another-item">
               <a href="#" class="another__link another__link_balla">Балла</a>
             </li>
           </ul>
@@ -272,22 +270,22 @@
 <!--////////////////////////////////////     Blanchard. Художественная галерея     //////////////////////-->
 <!--/////////////////////////////////////////////////////////////////////////////////////////////////////-->
 
-    <section id="offer" class="offer">
-      <div class="container">
-        <div class="offer__content">       
-          <h2 class="offer__title">Прикоснитесь к&nbsp;прекрасному</h2>
-          <p class="offer__text">
-            Мы вынуждены отталкиваться от того,
-            что реализация намеченных плановых заданий создаёт предпосылки для новых предложений.
-          </p>
-          <a href="#contacts" class="offer__button button">Подписаться на рассылку</a>
-        </div>
-      </div>
+    <section id="offer" class="offer">     
       <div class="offer-slider">
         <div class="offer-slider__list">
           <div class="offer-slider__item offer-slider__slide-1"></div>
           <div class="offer-slider__item offer-slider__slide-2"></div>
           <div class="offer-slider__item offer-slider__slide-3"></div>
+        </div>
+      </div>
+      <div class="container">  
+        <div class="offer-content">       
+          <h2 class="offer-title">Прикоснитесь к&nbsp;прекрасному</h2>
+          <p class="offer-text">
+            Мы вынуждены отталкиваться от того,
+            что реализация намеченных плановых заданий создаёт предпосылки для новых предложений.
+          </p>
+          <a href="#contacts" class="offer-button button">Подписаться на рассылку</a>
         </div>
       </div>
     </section>
@@ -320,27 +318,25 @@
 <!--/////////////////////////////////////////////////////////////////////////////////////////////////////-->
 <section id="gallery" class="gallery">
   <div class="container">
-    <div class="gallery_flex">
+    <div class="gallery-flex">
       <div class="gallery__left-side">
-        <h2 class="gallery__title">Галерея</h2>
+        <h2 class="gallery-title">Галерея</h2>
         <div class="filter">
-          <p class="filter__label">Фильтровать по:</p>
+          <p class="filter-label">Фильтровать по:</p>
           <select id="filter-selector" class="filter-selector" aria-label="Фильтр для поиска художественных произведений">
             <option value="">Автор</option>
             <option value="">Направление</option>
             <option value="">Техника</option>
           </select>
-        </div>
-        <p class="left-side__info">
-          Вам предоставляется 10 бесплатных скачиваний. Для увеличения количества скачиваний
-          <a href="#" class="left-side__link">
-            авторизуйтесь,
-          </a>
-          либо воспользуйтесь лицензией.
-        </p>
+        </div>        
+        <div class="advantages-l-b">
+          <div class="advantages">
+              Вам представляется 10 бесплатных скачиваний. Для увеличения количества скачиваний <a href="trusted.html" class="trusted">авторизуйтесь,</a> либо воспользуйтесь лицензией.
+          </div>
+      </div>
       </div>  
         <div class="gallery-slider">
-          <div class="gallery-slider__controls gallery__controls">
+          <div class="gallery-slider__controls">
             <button class="gallery-slider__button-prev gallery-slider__button"></button>
             <div class="gallery-slider__fractions"></div>
             <button class="gallery-slider__button-next gallery-slider__button"></button>
@@ -448,41 +444,40 @@
 <!--/////////////////////////////////////////////////////////////////////////////////////////////////////-->
  <section id="catalog" class="catalog">
   <div class="container">
-    <div class="container-catalog">
-    <div class="catalog__header">
-      <h2 class="catalog__title">Каталог</h2>
-      <ul class="catalog__tabs tabs">
-        <li class="tabs__item">
-          <button class="tabs__button" data-path="france" aria-label="Франция"></button>
+    <div class="catalog-header">
+      <h2 class="catalog-title">Каталог</h2>
+      <ul class="catalog-tabs tabs">
+        <li class="tabs-item">
+          <button class="tabs-button" data-path="france" aria-label="Франция"></button>
         </li>
-        <li class="tabs__item">
-          <button class="tabs__button" data-path="germany" aria-label="Германия"></button>
+        <li class="tabs-item">
+          <button class="tabs-button" data-path="germany" aria-label="Германия"></button>
         </li>
-        <li class="tabs__item">
-          <button class="tabs__button tabs__button_is-active" data-path="italy" aria-label="Италия"></button>
+        <li class="tabs-item">
+          <button class="tabs-button tabs__button_is-active" data-path="italy" aria-label="Италия"></button>
         </li>
-        <li class="tabs__item">
-          <button class="tabs__button" data-path="russia" aria-label="Россия"></button>
+        <li class="tabs-item">
+          <button class="tabs-button" data-path="russia" aria-label="Россия"></button>
         </li>
-        <li class="tabs__item">
-          <button class="tabs__button" data-path="belgium" aria-label="Бельгия"></button>
+        <li class="tabs-item">
+          <button class="tabs-button" data-path="belgium" aria-label="Бельгия"></button>
         </li>
       </ul>
     </div>
-    <p class="catalog__description">
+    <p class="catalog-description">
       Акционеры крупнейших компаний, которые представляют собой яркий пример континентально-европейского
       типа политической культуры, будут объявлены нарушающими общечеловеческие нормы этики и морали.
       Являясь всего лишь частью общей картины, стремящиеся вытеснить традиционное производство,
       нанотехнологии и по сей день остаются уделом либералов, которые жаждут быть функционально
       разнесены на независимые элементы.
     </p>
-    <div class="catalog__main" data-path="france-content">
-      <figure class="catalog__content card card_is-active" data-author="mane-content">
-        <img src="./img/mane.jpg" alt="Эдуард Мане" class="card__image">
-        <figcaption class="card__description">
-          <h3 class="card__author">Эдуард Мане</h3>
-          <p class="card__years">23 января 1832 — 30 апреля 1883.</p>
-          <p class="card__bio">
+    <div class="catalog-main" data-path="france-content">
+      <figure class="catalog-content card card_is-active" data-author="mane-content">
+        <img src="./img/mane.jpg" alt="Эдуард Мане" class="card-image">
+        <figcaption class="card-description">
+          <h3 class="card-author">Эдуард Мане</h3>
+          <p class="card-years">23 января 1832 — 30 апреля 1883.</p>
+          <p class="card-bio">
             Один из наиболее выдающихся французских художников XIX века. Его творчество стало переходным
             звеном между реализмом и импрессионизмом. За это Эдуарда Мане называют последним из великих
             художников-классиков и первым представителем современного искусства. Эдуард Мане родился в
@@ -493,12 +488,12 @@
           </p>
         </figcaption>
       </figure>
-      <figure class="catalog__content card" data-author="gogen-content">
-        <img src="./img/gogen.jpg" alt="Поль Гоген" class="card__image">
-        <figcaption class="card__description">
-          <h3 class="card__author">Поль Гоген</h3>
-          <p class="card__years">7 июня 1848 — 8 мая 1903.</p>
-          <p class="card__bio">
+      <figure class="catalog-content card" data-author="gogen-content">
+        <img src="./img/gogen.jpg" alt="Поль Гоген" class="card-image">
+        <figcaption class="card-description">
+          <h3 class="card-author">Поль Гоген</h3>
+          <p class="card-years">7 июня 1848 — 8 мая 1903.</p>
+          <p class="card-bio">
             Противоречивый характер французского художника-постимпрессиониста Поля Гогена и его
             необычная судьба создали особую новую реальность в его работах, где доминирующую
             роль играет цвет. В отличие от импрессионистов, придававшим значимость теням,
@@ -770,13 +765,13 @@
         </ul>
       </div>
     </div>
-    <div class="catalog__main" data-path="germany-content">
-      <figure class="catalog__content card card_is-active" data-author="dicks-content">
-        <img src="./img/dicks.jpg" alt="Отто Дикс" class="card__image">
-        <figcaption class="card__description">
-          <h3 class="card__author">Отто Дикс</h3>
-          <p class="card__years">2 декабря 1891 — 25 июля 1969.</p>
-          <p class="card__bio">
+    <div class="catalog-main" data-path="germany-content">
+      <figure class="catalog-content card card_is-active" data-author="dicks-content">
+        <img src="./img/dicks.jpg" alt="Отто Дикс" class="card-image">
+        <figcaption class="card-description">
+          <h3 class="card-author">Отто Дикс</h3>
+          <p class="card-years">2 декабря 1891 — 25 июля 1969.</p>
+          <p class="card-bio">
             Участник Первой мировой войны. Был одним из основателей объединения художников под
             названием Дрезденский сецессион, появившегося в Дрездене в 1919 году. В 1920-е годы
             был связан с дадаизмом и экспрессионизмом. В 1925 – начале 1930-х годов Дикс — один
@@ -788,12 +783,12 @@
           </p>
         </figcaption>
       </figure>
-      <figure class="catalog__content card" data-author="mengs-content">
-        <img src="./img/mengs.jpg" alt="Антон Рафаэль Менгс" class="card__image">
-        <figcaption class="card__description">
-          <h3 class="card__author">Антон Рафаэль Менгс</h3>
-          <p class="card__years">22 марта 1728 — 29 июня 1779.</p>
-          <p class="card__bio">
+      <figure class="catalog-content card" data-author="mengs-content">
+        <img src="./img/mengs.jpg" alt="Антон Рафаэль Менгс" class="card-image">
+        <figcaption class="card-description">
+          <h3 class="card-author">Антон Рафаэль Менгс</h3>
+          <p class="card-years">22 марта 1728 — 29 июня 1779.</p>
+          <p class="card-bio">
             Блестящий портретист, Менгс умело сочетал барочную парадность и точную передачу индивидуальных черт
             модели.
             Ему позировали самые могущественные люди эпохи, от папы Климента XIII до Фридриха Великого, королей
@@ -999,13 +994,13 @@
         </ul>
       </div>
     </div>    
-    <div class="catalog__main catalog__main_is-active" data-path="italy-content">
-      <figure class="catalog__content card card_is-active" data-author="girlandayo-content">
-        <img src="./img/girlandayo.jpg" alt="Доменик Гирлантайо" class="card__image">
-        <figcaption class="card__description">
-          <h3 class="card__author">Доменико Гирландайо</h3>
-          <p class="card__years">2 июня 1448 — 11 января 1494.</p>
-          <p class="card__bio">
+    <div class="catalog-main catalog__main_is-active" data-path="italy-content">
+      <figure class="catalog-content card card_is-active" data-author="girlandayo-content">
+        <img src="./img/girlandayo.jpg" alt="Доменик Гирлантайо" class="card-image">
+        <figcaption class="card-description">
+          <h3 class="card-author">Доменико Гирландайо</h3>
+          <p class="card-years">2 июня 1448 — 11 января 1494.</p>
+          <p class="card-bio">
             Один из ведущих флорентийских художников Кватроченто, основатель художественной династии,
             которую продолжили его брат Давид и сын Ридольфо. Глава художественной мастерской, где юный
             Микеланджело в течение года овладевал профессиональными навыками. Автор фресковых циклов, в
@@ -1014,12 +1009,12 @@
           </p>
         </figcaption>
       </figure>
-      <figure class="catalog__content card" data-author="verroqyo-content">
-        <img src="./img/verroqyo.jpg" alt="Андреа Верроккьо" class="card__image">
-        <figcaption class="card__description">
-          <h3 class="card__author">Андреа Верроккьо</h3>
-          <p class="card__years">2 июня 1435 — 10 октября 1488.</p>
-          <p class="card__bio">
+      <figure class="catalog-content card" data-author="verroqyo-content">
+        <img src="./img/verroqyo.jpg" alt="Андреа Верроккьо" class="card-image">
+        <figcaption class="card-description">
+          <h3 class="card-author">Андреа Верроккьо</h3>
+          <p class="card-years">2 июня 1435 — 10 октября 1488.</p>
+          <p class="card-bio">
             Одним из самых видных деятелей в искусстве Флоренции последней трети XV в. является Андреа дель
             Верроккьо. Возглавляя большую мастерскую, выполнявшую многочисленные заказы для Флоренции и
             других городов Италии, он воспитал целое поколение художников, среди которых было немало
@@ -1397,13 +1392,13 @@
         </ul>
       </div>
     </div>
-    <div class="catalog__main" data-path="russia-content">
-      <figure class="catalog__content card card_is-active" data-author="levitan-content">
-        <img src="./img/levitan.jpg" alt="Исаак Левитан" class="card__image">
-        <figcaption class="card__description">
-          <h3 class="card__author">Исаак Ильич Левитан</h3>
-          <p class="card__years">18 августа 1860 — 22 июля 1900.</p>
-          <p class="card__bio">
+    <div class="catalog-main" data-path="russia-content">
+      <figure class="catalog-content card card_is-active" data-author="levitan-content">
+        <img src="./img/levitan.jpg" alt="Исаак Левитан" class="card-image">
+        <figcaption class="card-description">
+          <h3 class="card-author">Исаак Ильич Левитан</h3>
+          <p class="card-years">18 августа 1860 — 22 июля 1900.</p>
+          <p class="card-bio">
             Исаак Левитан – мастер «пейзажа настроения» и самых медитативных полотен в русском искусстве.
             Шедевр Левитана «Над вечным покоем» называют «самой русской картиной». Художник писал её под
             звуки траурного марша из «Героической симфонии» Бетховена. Один из друзей Левитана назвал
@@ -1411,12 +1406,12 @@
           </p>
         </figcaption>     
       </figure>
-      <figure class="catalog__content card" data-author="ayvazovsky-content">
-        <img src="./img/ayvazovsky.jpg" alt="Авайзовский Иван Константинович" class="card__image">
-        <figcaption class="card__description">
-          <h3 class="card__author">Иван Константинович Айвазовский</h3>
-          <p class="card__years">17 июля 1817 — 2 мая 1900.</p>
-          <p class="card__bio">
+      <figure class="catalog-content card" data-author="ayvazovsky-content">
+        <img src="./img/ayvazovsky.jpg" alt="Авайзовский Иван Константинович" class="card-image">
+        <figcaption class="card-description">
+          <h3 class="card-author">Иван Константинович Айвазовский</h3>
+          <p class="card-years">17 июля 1817 — 2 мая 1900.</p>
+          <p class="card-bio">
             Иван Айвазовский - непрезойденный маринист и один из самых дорогих художников.
             В 2012 году на британском аукционе Sotheby's его картина «Вид Константинополя и
             Босфора» была продана за 3 миллиона 230 тысяч фунтов стерлингов, что в переводе
@@ -1579,13 +1574,13 @@
         </ul>
       </div>
     </div>    
-    <div class="catalog__main" data-path="belgium-content">
-      <figure class="catalog__content card card_is-active" data-author="breigel-content">
-        <img src="./img/breigel.jpg" alt="Питер Брейгель Старший" class="card__image">
-        <figcaption class="card__description">
-          <h3 class="card__author">Питер Брейгель Старший</h3>
-          <p class="card__years">2 июня 1508 — 9 сентября 1569.</p>
-          <p class="card__bio">
+    <div class="catalog-main" data-path="belgium-content">
+      <figure class="catalog-content card card_is-active" data-author="breigel-content">
+        <img src="./img/breigel.jpg" alt="Питер Брейгель Старший" class="card-image">
+        <figcaption class="card-description">
+          <h3 class="card-author">Питер Брейгель Старший</h3>
+          <p class="card-years">2 июня 1508 — 9 сентября 1569.</p>
+          <p class="card-bio">
             Творчество Питера Брейгеля Старшего - итог сложного развития искусства Северного
             Ренессанса XV-XVI веков. Сама личность художника окутана тайной, он не оставил
             портретов ни своей жены, ни детей, ни друзей. Полагают, что он иногда изображал
@@ -1593,12 +1588,12 @@
           </p>
         </figcaption>
       </figure>
-      <figure class="catalog__content card" data-author="rubens-content">
-        <img src="./img/rubens.jpg" alt="Питер Пауль Рубенс" class="card__image">
-        <figcaption class="card__description">
-          <h3 class="card__author">Питер Пауль Рубенс</h3>
-          <p class="card__years">28 июня 1577 — 30 мая 1640.</p>
-          <p class="card__bio">
+      <figure class="catalog-content card" data-author="rubens-content">
+        <img src="./img/rubens.jpg" alt="Питер Пауль Рубенс" class="card-image">
+        <figcaption class="card-description">
+          <h3 class="card-author">Питер Пауль Рубенс</h3>
+          <p class="card-years">28 июня 1577 — 30 мая 1640.</p>
+          <p class="card-bio">
             Картины Рубенса всегда отличает интерес к напористому, стремительному действию.
             Блестяще выписанные тела людей и животных, вплетенные в идеально-составленную
             композицию, поражают своим темпераментом и колоритом. Даже работая по традиционным
@@ -1702,7 +1697,6 @@
       </div>
     </div>
   </div>
-</div>
 </section>    
 
 <!--/////////////////////////////////////////////////////////////////////////////////////////////////////-->
@@ -1711,128 +1705,129 @@
            
     <section id="events" class="events">
       <div class="container">
-        <h2 class="events__title">События</h2>
-        <div class="events__container" data-mobile="false">
-          <ul class="events__list">
+        <h2 class="events-title">События</h2>
+        <div class="events-container" data-mobile="false">
+          <ul class="events-list">
             <li class="events__item">
-              <figure class="events__card">
-                <img src="./img/events-1.jpg" class="events__image" alt="">
-                <figcaption class="events__description">
-                  <p class="events__location">
-                    <span class="events__where">Музей им. Щусева</span>
-                    <span class="events__when">с&nbsp;20&nbsp;марта&nbsp;по&nbsp;30&nbsp;апреля</span>
+              <figure class="events-card">
+                <img src="./img/events-1.jpg" class="events-image" alt="">
+                <figcaption class="events-description">
+                  <p class="events-location">
+                    <span class="events-where">Музей им. Щусева</span>
+                    <span class="events-when">с&nbsp;20&nbsp;марта&nbsp;по&nbsp;30&nbsp;апреля</span>
                   </p>
                   <div class="events__height-fixator">
-                    <h3 class="events__name">Книжная гравюра в живом восприятии</h3>
-                    <p class="events__info">Один из ведущих флорентийских художников Кватроченто,
+                    <h3 class="events-name">Книжная гравюра в живом восприятии</h3>
+                    <p class="events-info">Один из ведущих флорентийских художников Кватроченто,
                       основатель художественной династии, которую продолжили его брат Давид и сын
                       Ридольфо.
                     </p>
                   </div>
-                  <a href="#" class="events__more">Подробнее</a>
+                  <a href="#" class="events-more">Подробнее</a>
                 </figcaption>
               </figure>
             </li>
             <li class="events__item">
-              <figure class="events__card">
-                <img src="./img/events-2.jpg" class="events__image"
+              <figure class="events-card">
+                <img src="./img/events-2.jpg" class="events-image"
                   alt="«Открытая дискуссия». Дмитрий Петров и Сергей Ильин.">
-                <figcaption class="events__description">
-                  <p class="events__location">
-                    <span class="events__where">ММОМА</span>
-                    <span class="events__when">24&nbsp;марта&nbsp;19:00</span>
+                <figcaption class="events-description">
+                  <p class="events-location">
+                    <span class="events-where">ММОМА</span>
+                    <span class="events-when">24&nbsp;марта&nbsp;19:00</span>
                   </p>
                   <div class="events__height-fixator">
-                    <h3 class="events__name">«Открытая дискуссия». Дмитрий Петров и Сергей Ильин.</h3>
-                    <p class="events__info">
+                    <h3 class="events-name">«Открытая дискуссия». Дмитрий Петров и Сергей Ильин.</h3>
+                    <p class="events-info">
                       Высокий уровень вовлечения представителей целевой аудитории является четким доказательством
                       простого факта.
                     </p>
                   </div>
-                  <a href="#" class="events__more">Подробнее</a>
+                  <a href="#" class="events-more">Подробнее</a>
                 </figcaption>
               </figure>
             </li>
             <li class="events__item">
-              <figure class="events__card">
-                <img src="./img/events-3.jpg" class="events__image" alt="">
-                <figcaption class="events__description">
-                  <p class="events__location">
-                    <span class="events__where">Еврейский музей</span>
-                    <span class="events__when">с&nbsp;31&nbsp;марта&nbsp;по&nbsp;21&nbsp;апреля</span>
+              <figure class="events-card">
+                <img src="./img/events-3.jpg" class="events-image" alt="">
+                <figcaption class="events-description">
+                  <p class="events-location">
+                    <span class="events-where">Еврейский музей</span>
+                    <span class="events-when">с&nbsp;31&nbsp;марта&nbsp;по&nbsp;21&nbsp;апреля</span>
                   </p>
                   <div class="events__height-fixator">
-                    <h3 class="events__name">Выставка «Формация 2020»</h3>
-                    <p class="events__info">
+                    <h3 class="events-name">Выставка «Формация 2020»</h3>
+                    <p class="events-info">
                       Идейные соображения высшего порядка, а также современная методология разработки играет
                       важную роль в формировании глубокомысленных рассуждений.
                     </p>
                   </div>
-                  <a href="#" class="events__more">Подробнее</a>
+                  <a href="#" class="events-more">Подробнее</a>
                 </figcaption>
               </figure>
             </li>
             <li class="events__item">
-              <figure class="events__card">
-                <img src="./img/events-4.jpg" class="events__image" alt="">
-                <figcaption class="events__description">
-                  <p class="events__location">
-                    <span class="events__where">Третьяковка на Крымском валу</span>
-                    <span class="events__when">с 30 марта по 30 апреля</span>
+              <figure class="events-card">
+                <img src="./img/events-4.jpg" class="events-image" alt="">
+                <figcaption class="events-description">
+                  <p class="events-location">
+                    <span class="events-where">Третьяковка на Крымском валу</span>
+                    <span class="events-when">с 30 марта по 30 апреля</span>
                   </p>
                   <div class="events__height-fixator">
-                    <h3 class="events__name">XXIV Международная биеннале молодого искусства</h3>
-                    <p class="events__info">
+                    <h3 class="events-name">XXIV Международная биеннале молодого искусства</h3>
+                    <p class="events-info">
                       Внезапно, реплицированные с зарубежных источников, современные исследования.
                     </p>
                   </div>
-                  <a href="#" class="events__more">Подробнее</a>
+                  <a href="#" class="events-more">Подробнее</a>
                 </figcaption>
               </figure>
             </li>
             <li class="events__item">
-              <figure class="events__card">
-                <img src="./img/events-5.jpg" class="events__image" alt="">
-                <figcaption class="events__description">
-                  <p class="events__location">
-                    <span class="events__where">MMAM</span>
-                    <span class="events__when">с 8 апреля по 20 мая</span>
+              <figure class="events-card">
+                <img src="./img/events-5.jpg" class="events-image" alt="">
+                <figcaption class="events-description">
+                  <p class="events-location">
+                    <span class="events-where">MMAM</span>
+                    <span class="events-when">с 8 апреля по 20 мая</span>
                   </p>
                   <div class="events__height-fixator">
-                    <h3 class="events__name">Джон Винзор. Фотографии из серии «Метафора серебра»</h3>
-                    <p class="events__info">
+                    <h3 class="events-name">Джон Винзор. Фотографии из серии «Метафора серебра»</h3>
+                    <p class="events-info">
                       Один из ведущих флорентийских художников Кватроченто, основатель художественной династии,
                       которую продолжили его брат Давид и сын Ридольфо.
                     </p>
                   </div>
-                  <a href="#" class="events__more">Подробнее</a>
+                  <a href="#" class="events-more">Подробнее</a>
                 </figcaption>
               </figure>
             </li>
             <li class="events__item">
-              <figure class="events__card">
-                <img src="./img/events-2.jpg" class="events__image" alt="">
-                <figcaption class="events__description">
-                  <p class="events__location">
-                    <span class="events__where">MMAM</span>
-                    <span class="events__when">с 8 апреля по 20 мая</span>
+              <figure class="events-card">
+                <img src="./img/events-2.jpg" class="events-image" alt="">
+                <figcaption class="events-description">
+                  <p class="events-location">
+                    <span class="events-where">MMAM</span>
+                    <span class="events-when">с 8 апреля по 20 мая</span>
                   </p>
                   <div class="events__height-fixator">
-                    <h3 class="events__name">Джон Винзор. Фотографии из серии «Метафора серебра»</h3>
-                    <p class="events__info">
+                    <h3 class="events-name">Джон Винзор. Фотографии из серии «Метафора серебра»</h3>
+                    <p class="events-info">
                       Один из ведущих флорентийских художников Кватроченто, основатель художественной династии,
                       которую продолжили его брат Давид и сын Ридольфо.
                     </p>
                   </div>
-                  <a href="#" class="events__more">Подробнее</a>
+                  <a href="#" class="events-more">Подробнее</a>
                 </figcaption>
               </figure>
             </li>
           </ul>
-          <div class="events__pagination"></div>
-          <button class="events__all">Все события</button>
+          <div class="events-pagination">
+          <button class="events-all">Все события</button>
         </div>
       </div>
+    </div>
     </section>
 
 
@@ -1841,12 +1836,12 @@
 <!--/////////////////////////////////////////////////////////////////////////////////////////////////////-->
 
     <section id="publications" class="publications">
-      <div class="container container_flex">
-        <div class="publications__container">
+      <div class="container">
+        <div class="publications-container">
           <div class="publications__left-side">
-            <h2 class="publications__title">Издания</h2>
-            <div class="publications__accordion" data-mobile="false">
-              <h3 class="publications__subtitle" tabindex="-1">Категории</h3>
+            <h2 class="publications-title">Издания</h2>
+            <div class="publications-accordion" data-mobile="false">
+              <h3 class="publications-subtitle" tabindex="-1">Категории</h3>
               <ul class="publications__categories-list">
                 <li class="publications__categories-item">
                   <input type="checkbox" name="bestsellers" id="bestsellers" class="publications__checkbox">
@@ -1945,105 +1940,102 @@
             <ul class="publications__list">
               <li class="publications__item publications__item_is-visible" data-genre="design">
                 <div class="publications__card">
-                  <img src="./img/publications-1.jpg" alt="Искусство цвета" class="publications__image">
-                  <div class="publications__description">
-                    <div class="publications__info">
-                      <h3 class="publications__name">Искусство цвета</h3>
-                      <span class="publications__price">620 руб</span>
+                  <img src="./img/publications-1.jpg" alt="Искусство цвета" class="publications__image">                
+                  <div class="publications__description">            
+                    <div class="publications-services">
+                      <div class="publications-services-a">Искусство цвета</div>
+                      <div class="publications-services-b">620 руб</div>
                     </div>
-                    <p class="publications__author">Иттен, Иоханнес</p>
-                    <button class="publications__buy">Заказать</button>
+                    <div class="publications-services-v">Иттен, Иоханнес</div>
+                      <button class="publications__buy">Заказать</button>
                   </div>
                 </div>
               </li>
               <li class="publications__item publications__item_is-visible" data-genre="design">
                 <div class="publications__card">
                   <img src="./img/publications-2.jpg" alt="Типографика" class="publications__image">
-                  <div class="publications__description">
-                    <div class="publications__info">
-                      <h3 class="publications__name">Типографика</h3>
-                      <span class="publications__price">2 450 руб</span>
-                    </div>
-                    <p class="publications__author">Рудер, Эмиль</p>
-                    <button class="publications__buy">Заказать</button>
+                  <div class="publications__description">                                    
+                  <div class="publications-services">
+                    <div class="publications-services-a">Типографика</div>
+                    <div class="publications-services-b">2 450 руб</div>
                   </div>
+                  <div class="publications-services-v">Рудер, Эмиль</div>
+                    <button class="publications__buy">Заказать</button>
+                  </div> 
                 </div>
               </li>
               <li class="publications__item publications__item_is-visible" data-genre="design">
                 <div class="publications__card">
                   <img src="./img/publications-3.jpg" alt="Книги про буквы" class="publications__image">
-                  <div class="publications__description">
-                    <div class="publications__info">
-                      <h3 class="publications__name">Книги про буквы</h3>
-                      <span class="publications__price">2 200 руб</span>
-                    </div>
-                    <p class="publications__author">Гордон, Юрий</p>
-                    <button class="publications__buy">Заказать</button>
+                  <div class="publications__description">            
+                  <div class="publications-services">
+                    <div class="publications-services-a">Книги про буквы</div>
+                    <div class="publications-services-b">2 200 руб</div>
                   </div>
+                  <div class="publications-services-v">Гордон, Юрий</div>
+                    <button class="publications__buy">Заказать</button>
                 </div>
+              </div>
               </li>
               <li class="publications__item publications__item_is-visible" data-genre="design">
                 <div class="publications__card">
                   <img src="./img/publications-4.jpg" alt="Николай Ильин" class="publications__image">
-                  <div class="publications__description">
-                    <div class="publications__info">
-                      <h3 class="publications__name">Николай Ильин</h3>
-                      <span class="publications__price">1 100 руб</span>
-                    </div>
-                    <p class="publications__author">Кричевский, Владимир</p>
+                  <div class="publications__description">                                
+                  <div class="publications-services">
+                    <div class="publications-services-a">Николай Ильин</div>
+                    <div class="publications-services-b">1 100 руб</div>
+                  </div>
+                  <div class="publications-services-v">Кричевский, Владимир</div>
                     <button class="publications__buy">Заказать</button>
                   </div>
                 </div>
               </li>
               <li class="publications__item publications__item_is-visible" data-genre="design">
                 <div class="publications__card">
-                  <img src="./img/publications-5.jpg" alt="Модульные системы в графическом дизайне"
-                    class="publications__image">
+                  <img src="./img/publications-5.jpg" alt="Модульные системы в графическом дизайне" class="publications__image">                                    
                   <div class="publications__description">
-                    <div class="publications__info">
-                      <h3 class="publications__name">Модульные системы в графическом дизайне</h3>
-                      <span class="publications__price">1 450 руб</span>
-                    </div>
-                    <p class="publications__author">Мюллер-Брокманн, Йозеф</p>
-                    <button class="publications__buy">Заказать</button>
+                  <div class="publications-services">
+                    <div class="publications-services-a">Модульные системы в графическом дизайне</div>
+                    <div class="publications-services-b">1 450 руб</div>
                   </div>
+                  <div class="publications-services-v">Мюллер-Брокманн, Йозеф</div>
+                    <button class="publications__buy">Заказать</button>
                 </div>
+              </div>
               </li>
               <li class="publications__item publications__item_is-visible" data-genre="design">
                 <div class="publications__card">
-                  <img src="./img/publications-6.jpg" alt="Эволюция графических стилей" class="publications__image">
+                  <img src="./img/publications-6.jpg" alt="Эволюция графических стилей" class="publications__image">                                   
                   <div class="publications__description">
-                    <div class="publications__info">
-                      <h3 class="publications__name">Эволюция графических стилей</h3>
-                      <span class="publications__price">3 200 руб</span>
-                    </div>
-                    <p class="publications__author">Хеллер, Чваст</p>
-                    <button class="publications__buy">Заказать</button>
+                  <div class="publications-services">
+                    <div class="publications-services-a">Эволюция графических стилей</div>
+                    <div class="publications-services-b">3 200 руб</div>
                   </div>
+                  <div class="publications-services-v">Хеллер, Чваст</div>
+                    <button class="publications__buy">Заказать</button>
                 </div>
+              </div>
               </li>
               <li class="publications__item publications__item_is-visible" data-genre="design">
                 <div class="publications__card">
-                  <img src="./img/publications-7.jpg" alt="Типографика" class="publications__image">
-                  <div class="publications__description">
-                    <div class="publications__info">
-                      <h3 class="publications__name">Искусство и визуальное восприятие</h3>
-                      <span class="publications__price">2 200 руб</span>
-                    </div>
-                    <p class="publications__author">Арнхейм, Рудольф</p>
-                    <button class="publications__buy">Заказать</button>
+                  <img src="./img/publications-7.jpg" alt="Типографика" class="publications__image">                                   
+                  <div class="publications-services">
+                    <div class="publications-services-a">Типографика</div>
+                    <div class="publications-services-b">2 200 руб</div>
                   </div>
+                  <div class="publications-services-v">Арнхейм, Рудольф</div>
+                    <button class="publications__buy">Заказать</button>
                 </div>
               </li>
               <li class="publications__item" data-genre="fashion">
                 <div class="publications__card">
-                  <img src="./img/fashion-1.jpg" alt="Во имя Гуччи" class="publications__image">
-                  <div class="publications__description">
-                    <div class="publications__info">
-                      <h3 class="publications__name">Во имя Гуччи</h3>
-                      <span class="publications__price">500 руб</span>
-                    </div>
-                    <p class="publications__author">Гиччи, Патрисия</p>
+                  <img src="./img/fashion-1.jpg" alt="Во имя Гуччи" class="publications__image"> 
+                  <div class="publications__description">                                  
+                  <div class="publications-services">
+                    <div class="publications-services-a">Во имя Гуччи</div>
+                    <div class="publications-services-b">500 руб</div>
+                  </div>
+                  <div class="publications-services-v">Гиччи, Патрисия</div>
                     <button class="publications__buy">Заказать</button>
                   </div>
                 </div>
@@ -2051,29 +2043,28 @@
               <li class="publications__item" data-genre="fashion">
                 <div class="publications__card">
                   <img src="./img/fashion-2.jpg" alt="Гид по стилю" class="publications__image">
-                  <div class="publications__description">
-                    <div class="publications__info">
-                      <h3 class="publications__name">Гид по стилю</h3>
-                      <span class="publications__price">1 500 руб</span>
-                    </div>
-                    <p class="publications__author">Рогов, Александр</p>
-                    <button class="publications__buy">Заказать</button>
+                  <div class="publications__description">                
+                  <div class="publications-services">
+                    <div class="publications-services-a">Гид по стилю</div>
+                    <div class="publications-services-b">1 500 руб</div>
                   </div>
+                  <div class="publications-services-v">Рогов, Александр</div>
+                    <button class="publications__buy">Заказать</button>
                 </div>
+              </div>
               </li>
               <li class="publications__item" data-genre="fashion">
                 <div class="publications__card">
-                  <img src="./img/fashion-3.jpg"
-                    alt="Триумф черного платья. Создай свой неповторимый стиль" class="publications__image">
+                  <img src="./img/fashion-3.jpg" alt="Создай свой неповторимый стиль" class="publications__image">                                  
                   <div class="publications__description">
-                    <div class="publications__info">
-                      <h3 class="publications__name">Триумф черного платья. Создай свой неповторимый стиль</h3>
-                      <span class="publications__price">2 500 руб</span>
-                    </div>
-                    <p class="publications__author">Найденская, Наталья</p>
-                    <button class="publications__buy">Заказать</button>
+                  <div class="publications-services">
+                    <div class="publications-services-a">Создай свой неповторимый стиль</div>
+                    <div class="publications-services-b">2 500 руб</div>
                   </div>
+                  <div class="publications-services-v">Найденская, Наталья</div>
+                    <button class="publications__buy">Заказать</button>
                 </div>
+              </div>
               </li>
             </ul>
           </div>
@@ -2087,30 +2078,29 @@
 
     <section id="projects" class="projects">
       <div class="container">
-        <div class="container-projects">
-        <h2 class="projects__title">Проекты</h2>
-        <p class="projects__text">
+        <h2 class="projects-title">Проекты</h2>
+        <p class="projects-text">
           Предварительные выводы: постоянное информационно-пропагандистское обеспечение нашей деятельности
           однозначно фиксирует необходимость своевременного выполнения сверхзадачи. А ещё независимые
           государства смешаны с не уникальными данными до степени совершенной неузнаваемости, из-за чего
           возрастает их статус бесполезности. Прежде всего, постоянное информационно-пропагандистское
-          <button class="projects__tooltip"
+          <button class="projects-tooltip"
             data-tooltip="Пример современных тенденций - современная методология разработки">i</button>
           обеспечение нашей деятельности однозначно фиксирует необходимость экономической целесообразности
           принимаемых решений. И нет сомнений, что действия представителей оппозиции могут быть рассмотрены
-          <button class="projects__tooltip"
+          <button class="projects-tooltip"
             data-tooltip="Приятно, граждане, наблюдать, как сделанные на базе аналитики выводы вызывают у вас эмоции">i</button>
           исключительно в разрезе маркетинговых и финансовых
-          <button class="projects__tooltip" data-tooltip="В стремлении повысить качество">i</button>
+          <button class="projects-tooltip" data-tooltip="В стремлении повысить качество">i</button>
           предпосылок. Банальные, но неопровержимые
           выводы, а также представители современных социальных резервов призывают нас к новым свершениям,
           которые, в свою очередь, должны быть смешаны с не уникальными данными до степени совершенной
           неузнаваемости. Подробнее:
-          <a href="" class="projects__more">blanchard&#8209;art.ru/projects/about</a>
+          <a href="" class="projects-more">blanchard&#8209;art.ru/projects/about</a>
         </p>
-        <h3 class="projects__subtitle">Партнёры проектов:</h3>
+        <h3 class="projects-subtitle">Партнёры проектов:</h3>
         <div class="projects__slider">
-          <ul class="projects__wrapper">
+          <ul class="projects-wrapper">
             <li class="projects__slide">
               <a href="#" class="projects__partner-link"><img class="projects__partner-logo"
                   src="./img/partners-1.png" alt=""></a>
@@ -2152,33 +2142,30 @@
           <div class="projects__button projects__button_prev"></div>
         </div>
       </div>
-      </div>
     </section>
 
 <!--/////////////////////////////////////////////////////////////////////////////////////////////////////-->
 <!--////////////////////////////////////     Контакты    ////////////////////////////////////////////////-->
 <!--/////////////////////////////////////////////////////////////////////////////////////////////////////-->
     <section id="contacts" class="contacts">
-        <h2 class="contacts__title">Контакты</h2>     
-      <div class="contacts__container">
-        <div class="contacts__map map" id="contacts__map"></div>
-        <div class="contacts__left-side">
-          <div class="contacts__content">
-            <address class="contacts__address">
-              <p class="contacts__room">Шоурум №4</p>
-              <p class="contacts__build">Леонтьевский переулок, дом 5, строение 1</p>
+        <h2 class="contacts-title">Контакты</h2>     
+      <div class="contacts-container">        
+        <div class="contacts-map map" id="contacts-map"></div>
+          <div class="contacts__left-side contacts-content">
+            <address class="contacts-address">
+              <p class="contacts-room">Шоурум №4</p>
+              <p class="contacts-build">Леонтьевский переулок, дом 5, строение 1</p>
             </address>
-            <form class="contacts__form contacts__docket" action="https://jsonplaceholder.typicode.com/posts" autocomplete="on" method="POST">
-              <label class="contacts__act" for="name">
+            <form class="contacts-form contacts-docket" action="https://jsonplaceholder.typicode.com/posts" autocomplete="on" method="POST">
+              <label class="contacts-act" for="name">
                 Заказать обратный звонок 
               </label>
-              <input class="contacts__input" type="text" name="name" id="name" data-validate-field="name" placeholder="Имя*">
-              <input class="contacts__input contacts__input_bottom" type="tel" name="phone" id="phone" data-validate-field="tel" placeholder="Телефон*">
-           
-              <input class="contacts__submit" type="submit" value="Заказать">
+              <input class="contacts-input" type="text" name="name" id="name" data-validate-field="name" placeholder="Имя*">
+              <input class="contacts-input contacts__input_bottom" type="tel" name="phone" id="phone" data-validate-field="tel" placeholder="Телефон*">           
+              <input class="contacts-submit" type="submit" value="Заказать"> 
             </form>
-            <div class="contacts__social">
-              <h3 class="contacts__act contacts__act_bottom">
+            <div class="contacts-social">
+              <h3 class="contacts-act">
                 Связаться в один клик
               </h3>
               <ul class="contacts__link-list">
@@ -2203,8 +2190,8 @@
 
   <footer class="footer">
     <div class="container">
-      <div class="footer__container">
-      <a href="#" class="footer__logo" aria-label="Blanchard. Художественная галерея">
+      <div class="footer-container">
+      <a href="#" class="footer-logo" aria-label="Blanchard. Художественная галерея">
         <img src="./img/logo_Blanchard.svg" class="footer__logo-image" alt="Blanchard. Художественная галерея">
       </a>
       <ul class="footer__links-list">
@@ -2259,7 +2246,7 @@
         let im = new Inputmask("+7 (999) 999-99-99"); 
         im.mask(selector);
 
-        new JustValidate('.contacts__docket', {
+        new JustValidate('.contacts-docket', {
             rules: {
                 email: {
                     required: true,
@@ -2289,4 +2276,4 @@
     });
 </script>     
  </body>
-</html
+</html>

@@ -3,7 +3,7 @@
 const projectsSlider = new Swiper('.projects__slider', {
     loop: false,
     slideClass: 'projects__slide',
-    wrapperClass: 'projects__wrapper',
+    wrapperClass: 'projects-wrapper',
     speed: 600,
   
     navigation: {
