@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body>         
+<body>             
 
 
 <!--/////////////////////////////////////////////////////////////////////////////////////////////////////-->
@@ -28,7 +28,6 @@
           <img class="header-icon" src="img/logo_Blanchard.svg" alt="Blanchard. Художественная галерея">
         </a>
         <div class="menu">
-          <div class="menu-container">
             <ul class="header-nav">
               <li class="nav-items">
                 <a href="#about-us" class="nav-links">О нас</a>
@@ -59,7 +58,6 @@
               </svg>
               Войти
             </a>
-          </div>
         </div>
         <button class="header-search-button search-button">
           <svg xmlns="http://www.w3.org/2000/svg" class="search-button-icon">
@@ -264,31 +262,33 @@
   </div>
 </div>
 </header>
-  <main>
+  <main>   
 
 <!--/////////////////////////////////////////////////////////////////////////////////////////////////////-->
 <!--////////////////////////////////////     Blanchard. Художественная галерея     //////////////////////-->
 <!--/////////////////////////////////////////////////////////////////////////////////////////////////////-->
-
-    <section id="offer" class="offer">     
-      <div class="offer-slider">
-        <div class="offer-slider__list">
-          <div class="offer-slider__item offer-slider__slide-1"></div>
-          <div class="offer-slider__item offer-slider__slide-2"></div>
-          <div class="offer-slider__item offer-slider__slide-3"></div>
-        </div>
+  
+  <section id="offer" class="offer">
+      <div class="offer-block">  
+          <div class="offer-swiper">
+            <div class="offer__swiper-wrapper"> 
+              <div class="offer__swiper-slide offer-first offer-slider__slide-1"></div>
+              <div class="offer__swiper-slide offer-first offer-slider__slide-2"></div>
+              <div class="offer__swiper-slide offer-first offer-slider__slide-3"></div>
+            </div>
+          </div>
+          <div class="container">  
+            <div class="offer-content">       
+              <h2 class="offer-title">Прикоснитесь к&nbsp;прекрасному</h2>
+              <p class="offer-text">
+                Мы&nbsp;вынуждены отталкиваться от&nbsp;того,
+                что реализация намеченных плановых заданий создаёт предпосылки для новых предложений.
+              </p>
+              <a href="#contacts" class="offer-button button">Подписаться на рассылку</a>
+            </div>
+          </div>
       </div>
-      <div class="container">  
-        <div class="offer-content">       
-          <h2 class="offer-title">Прикоснитесь к&nbsp;прекрасному</h2>
-          <p class="offer-text">
-            Мы вынуждены отталкиваться от того,
-            что реализация намеченных плановых заданий создаёт предпосылки для новых предложений.
-          </p>
-          <a href="#contacts" class="offer-button button">Подписаться на рассылку</a>
-        </div>
-      </div>
-    </section>
+  </section>
 
 <!--/////////////////////////////////////////////////////////////////////////////////////////////////////-->
 <!--////////////////////////////////////     О нас    //////////////////////////////////////////////////-->

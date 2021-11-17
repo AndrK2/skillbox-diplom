@@ -25,36 +25,6 @@
   font-display: swap;  
 }
 
-@font-face {
-  font-family: 'OpenSansEB';
-  src: url('../fonts/OpenSansExtraBold.woff2') format('woff2'),
-       url('../fonts/OpenSansExtraBold.woff') format('woff');
-  /*font-weight: 700;
-  font-style: normal;
-  font-display: swap;*/
-}
-
-
-@font-face {
-  font-family: 'OpenSansL';
-  src: url('../fonts/OpenSansLight.woff2') format('woff2'),
-       url('../fonts/OpenSansLight.woff') format('woff');
-  /*font-style: normal;
-  font-display: swap;
-  font-weight: normal;*/
-}
-
-/*
-@font-face {
-  font-family: OpenSansI;
-  src: url('../fonts/opensans-italic.woff2') format('woff2'),
-       url('../fonts/opensans-italic.woff') format('woff');
-  font-weight: 400;
-  font-style: italic;
-}
-*/
-
-
 body{
   font-family: 'OpenSans', sans-serif;
 }
@@ -97,8 +67,8 @@ a{
 
 .header-container{
   display: flex;
-  height: 100px;  
   position: relative;
+  height: 100px;
 }
 
 .header-nav {  
@@ -108,8 +78,8 @@ a{
 }
 
 .header-logo{ 
-  padding-top: 30px;  
-  padding-right: 8%;
+  margin-right: 8%;
+  margin-top: 30px;
 }
 
 .header-logo:focus{
@@ -180,8 +150,6 @@ a{
 .search-input:focus {
   outline: none;
   color: #C283F3; 
-  /*outline: #C283F3 2px solid;
-  outline-offset: 1px;*/
 }
 
 .search-input:focus::-webkit-input-placeholder {
@@ -221,37 +189,14 @@ a{
   cursor: pointer;
 }
 
-/*Лупа*/
 .header-search:hover .search-icon{
   fill: #C283F3;
 }
-/*.search-icon:focus .search-input,
-.search-icon:hover .search-input {
-  fill: #C283F3;
-}*/
-
-/*.search-icon:focus{
-  fill: #C283F3;
-}*/
-
-/*.search-icon:hover {
-  fill: #C283F3;
-}*/
-
-
-/*           как сделать два селектора одновременно hover плавным       */
-/*     https://developer.mozilla.org/ru/docs/Web/CSS/Pseudo-classes    */
-
-/*.search-submit:hover .search-icon{
-  fill: #C283F3;
-}*/
 
 .search-back {
   display: none;
 }
 
-
-/*Поиск*/ 
 .header-search:hover .search-input {
   border-bottom: #C283F3 1px solid;
 }
@@ -274,23 +219,6 @@ a{
   -webkit-transition: color 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
   transition: color 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
-
-/*.nav-links:hover {
-  outline: #9D5CD0 2px solid;
-  outline-offset: 5px;
-  cursor: none;
-}
-
-.nav-links:focus {
-  color: #C283F3;
-  outline: none;
-  cursor: pointer;  
-}
-
-.nav-links:active {
-  color: #7943A4;
-}*/
-
 
 .nav-links:hover {
   color: #C283F3;
@@ -328,31 +256,6 @@ a{
   fill: #7943A4;
 }
 
-
-/*.nav-sign-up:hover {
-  outline: #C283F3 2px solid;
-  outline-offset: 5px;
-  cursor: none;
-}
-
-.nav-sign-up:focus {
-  color: #C283F3;
-  outline: none;
-  cursor: pointer;  
-}
-
-.nav-sign-up:active {
-  color: #7943A4;
-}
-
-.nav-sign-up:focus .icon-sign-up {
-  fill: #C283F3;
-}
-
-.nav-sign-up:active .icon-sign-up {
-  fill: #7943A4;
-}*/
-
 .icon-sign-up {
   position: absolute;
   right: 60px;
@@ -375,14 +278,6 @@ a{
   width: 100%;
 }
 
-.menu-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-}
-
-
 
  /*////////////////////////////////////////   Нижнее меню  //////////////////////////////////////////////*/
  /********************************************************************************************************/
@@ -404,13 +299,19 @@ a{
   display: flex;
 }
 
+.nav-catalog__items:hover .nav-catalog__name::after {
+    margin-bottom: 0;
+    border-color: #C283F3;    
+    transition: border-color 0.3s ease-in-out
+}
+
 .nav-catalog__items {
   list-style: none;
   position: relative;
 }
 
 .nav-catalog__items:not(:last-child) {
-  margin-right: 102px;
+  margin-right: 94px;
 }
 
 .nav-catalog__name {
@@ -430,22 +331,6 @@ a{
 .nav-catalog__name_is-open {
   color: #9D5CD0;
 }
-
-/*.nav-catalog__name:hover {
-  outline: #9D5CD0 2px solid;
-  outline-offset: 5px;
-  cursor: none;
-}
-
-.nav-catalog__name:focus {
-  color: #C283F3;
-  outline: none;
-  cursor: pointer;  
-}
-
-.nav-catalog__name:active {
-  color: #7943A4;
-}*/
 
 .nav-catalog__name:hover {
   color: #C283F3;
@@ -672,95 +557,47 @@ a{
 /***********************************************************************************************************************************/
 /*////////////////////////////////////     Blanchard. Художественная галерея     //////////////////////////////////////////////////*/
 
-.offer {
+.offer{
+  position: relative;
+}
+
+.offer-block{
   overflow: hidden;
   z-index: 0;
   position: relative;
-  margin-top: -180px;
+  margin-top: -75px;
+}
+
+.offer-swiper {  
+  position: absolute;
+  right: 0;
+  left: 0;
   height: 810px;
 }
 
-.offer-content { 
-  display: flex; 
-  -ms-flex-direction: column;
-      flex-direction: column; 
-  position: absolute;
-  padding-top: 191px;  
-}
-
-.offer-title { 
-  font-family: 'OpenSansB';
-  color: #fff;
-  font-size: 71px;
-  line-height: 80px;
-  margin-bottom: 3px;  
-  max-width: 450px;
-}
-
-.offer-text {  
-  font-family: 'OpenSansB';
-  font-size: 18px;
-  color: #fff;
-  line-height: 30px;
-  margin-bottom: 94px;
-  width: 560px;
-}
-
-.offer-button {
-  font-family: 'OpenSansB';
-  display: block;
-  color: #fff;
-  font-weight: 700;
-  font-size: 18px;
-  padding: 24px 33px;
-  background-color: #9D5CD0;
-  border: #9D5CD0 3px solid;
-  border-radius: 100px;
-  -ms-flex-item-align: start;
-      align-self: flex-start;
-  -webkit-transition: border 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
-  transition: border 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
-}
-
-.offer-button:hover {
-  border: #D1A9F0 3px solid;
-}
-
-.offer-button:focus {
-  outline: none;
-  border: #7943A4 3px solid;
-}
-
-.offer-button:active {
-  outline: none;
-  border: #D1A9F0 3px solid;
-  background-color: #7943A4;
-}
-
-.offer-slider {
-  position: absolute;
-  height: 795px;
-  overflow: hidden;
-  width: 100%;
-  -webkit-animation: offer__background 15s ease-in-out alternate infinite none;
-          animation: offer__background 15s ease-in-out alternate infinite none;
-}
-
-.offer-slider__list {
+.offer__swiper-wrapper {
+  position: relative;
   height: 100%;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  overflow: hidden;
+  
 }
 
-.offer-slider__item {
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-  background-repeat: no-repeat;
+.offer__swiper-slide {
+  flex-shrink: 0;
+  position: relative;
+  transition-property: transform;
+  pointer-events: none;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;  
+}
+
+.offer-first {
+  position: relative;
+  display: block;
   background-size: cover;
-  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-animation: backgroundAnimation 30s linear infinite;
+  animation: backgroundAnimation 30s linear infinite;
 }
 
 .offer-slider__slide-1 {
@@ -773,20 +610,104 @@ a{
 
 .offer-slider__slide-3 {
   background-image: url(../img/picture_3.jpg);
-}
+}  
+  
+  from {
+    background-size: 100% 100%;
+  }
+  
+  @-webkit-keyframes backgroundAnimation {
+    from {
+        background-size: 100% 100%
+    }
+    50% {
+        background-size: 110% 110%
+    }
+    to {
+        background-size: 100% 100%
+    }
+  }
+  
+  @keyframes backgroundAnimation {
+    from {
+        background-size: 100% 100%
+    }
+    50% {
+        background-size: 110% 110%
+    }
+    to {
+        background-size: 100% 100%
+    }
+  }
 
-.offer__only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  bottom: 0;
-  overflow: hidden;
-  white-space: nowrap;
-}    
-
-
+  .offer-content { 
+    display: flex; 
+    -ms-flex-direction: column;
+        flex-direction: column; 
+    margin-top: 86px; 
+    height: 620px;
+    position: relative; 
+  }
+     
+  .offer-title { 
+    font-family: 'OpenSansB';
+    color: #fff;
+    font-size: 71px;
+    line-height: 80px;
+    margin-bottom: 3px;  
+    max-width: 450px;
+  }
+  
+  .offer-text {  
+    font-family: 'OpenSansB';
+    font-size: 18px;
+    color: #fff;
+    line-height: 30px;
+    margin-bottom: 94px;
+    width: 560px;
+  }
+  
+  .offer-button {
+    font-family: 'OpenSansB';
+    display: block;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 24px 33px;
+    background-color: #9D5CD0;
+    border: #9D5CD0 3px solid;
+    border-radius: 100px;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    -webkit-transition: border 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: border 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+  
+  .offer-button:hover {
+    border: #D1A9F0 3px solid;
+  }
+  
+  .offer-button:focus {
+    outline: none;
+    border: #7943A4 3px solid;
+  }
+  
+  .offer-button:active {
+    outline: none;
+    border: #D1A9F0 3px solid;
+    background-color: #7943A4;
+  }
+  
+  .offer__only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    bottom: 0;
+    overflow: hidden;
+    white-space: nowrap;
+  }
 
 
 /*/////////////////////////////////////////     О нас     ***************************************************/
@@ -3280,7 +3201,7 @@ a{
     transition: transform 0.5s cubic-bezier(0.075, 0.82, 0.165, 1), -webkit-transform 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
   }
 
-  .menu-container {
+/*.menu-container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3289,7 +3210,7 @@ a{
         -ms-flex-direction: column;
             flex-direction: column;
     height: 100%;
-  }
+  }*/
 
   .nav-sign-up {
     padding: 20px 93px 17px 106px;

@@ -34,22 +34,24 @@ function setLoWers() {
   // ---
   setLoWers()
  
-   
 
+
+  
+   
 
               // Нижнее меню прокрутки изображений
 // Слайдер для фона оффера
-new Swiper($('.offer-slider')[0], {
-    effect: 'fade',
-    fadeEffect: {
-      crossFade: true,
-    },
-    autoplay: {
-      delay: 10000,
-    },
-    speed: 1500,
-    simulateTouch: false,
-    loop: true,
-    slideClass: 'offer-slider__item',
-    wrapperClass: 'offer-slider__list',
-  })              
+new Swiper($('.offer-swiper')[0], {
+  effect: 'fade',
+  fadeEffect: {
+    crossFade: true,
+  },
+  autoplay: {
+    delay: 10000,
+  },
+  speed: 1500,
+  simulateTouch: false,
+  loop: true,
+  slideClass: 'offer-first',
+  wrapperClass: 'offer__swiper-wrapper',
+})              
